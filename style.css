@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu{
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.action{
+     padding-top: 35px;
+     padding-right: 30px;
+     
+}
+
+.logo{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.action:hover{
+   cursor: pointer;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.main img{
+    width: 100%;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+.home{
+    padding-top: 30px;
+    display: flex;
+    justify-content:center;
+}
+.shirt{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+}
+
+.home1{
+    display: flex;
+    justify-content: center;
+}
+
+.winter{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+}
+
+
+
+.shirt:hover{
+    transform: rotateX(5deg)  rotateY(5deg) scale(1.05);
+    cursor: pointer;
+}
+
+.winter:hover{
+     transform: rotateX(5deg)  rotateY(5deg) scale(1.05);
+   cursor: pointer;
+}
+
+.t-shirt{
+     transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+}
+.sale{
+     transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+}
+
+.accessories{
+     transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+}
+
+.pant{
+     transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+}
+
+.t-shirt:hover{
+      transform: rotateX(5deg)  rotateY(5deg) scale(1.05);
+    cursor: pointer;
+}
+
+.sale:hover{
+      transform: rotateX(5deg)  rotateY(5deg) scale(1.05);
+    cursor: pointer;
+}
+
+.accessories:hover{
+      transform: rotateX(5deg)  rotateY(5deg) scale(1.05);
+    cursor: pointer;
+}
+
+.pant:hover{
+      transform: rotateX(5deg)  rotateY(5deg) scale(1.05);
+    cursor: pointer;
+}
+
+.shop1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.load-btn {
+  background-color: #1a1a1a;   
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 50px;        
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+
+  margin: 40px auto;
+  display: block;
+ 
+
+  transition: all 0.3s ease;
+}
+
+.load-btn span {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+
+.load-btn:hover {
+  background-color: #000;
+}
+
+.load-btn:hover span {
+  transform: translateX(5px); 
+}
+
+#sss{
+    padding-top: 30px;
+    font-family:serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 90px;
+}
+
+.vdo video{
+   
+    width: 250px;
+    border-radius: 20px
+    
+}
+
+.vdo{
+    padding-left: 30px;
+}
+
+#kk video{
+  padding-left: 10px;
+}
+
+.footer {
+  background: #000;
+  padding: 60px 80px;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer-col h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer-col ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+}
+
+.footer-col .highlight {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid #444;
+  color: #ddd;
+  margin-bottom: 12px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.subscribe-box {
+  display: flex;
+  background: #111;
+  border-radius: 30px;
+  padding: 5px;
+  max-width: 320px;
+}
+
+.subscribe-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px 15px;
+  flex: 1;
+}
+
+.subscribe-box button {
+  background: #222;
+  border: none;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+  background: #444;
+}
